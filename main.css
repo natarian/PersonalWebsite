@@ -1,0 +1,36 @@
+#topHalf{
+  position: fixed;
+  height: 25%;
+  width: 100%;
+}
+
+#bottomHalf{
+  position: fixed;
+  top: 25%;
+  height: 75%;
+  width: 100%;
+}
+
+#firstDiv {
+  position: fixed;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-color: orange;
+}
+
+#secondDiv {
+  position: fixed;
+    left: 25%;
+  width: 75%;
+  height: 100%;
+  background-color: white;
+}
+
+#name{
+  text-align: center;
+}
+
+#school{
+  text-align: center;
+}

@@ -183,8 +183,6 @@ table {
 #JobsTable {
   padding-top: 20px;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
   border: none;
 }
 #JobsTable table, #JobsTable th, #JobsTable td {

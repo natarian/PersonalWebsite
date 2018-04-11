@@ -18,14 +18,19 @@
   height: 75%;
   background-color: white;
 }
-
+#title {
+padding-top: 50px;
+  text-align: center;
+  font-size: 16px;
+  top: 25%;
+  padding-bottom: 20px;
+}
 #schoolImages {
-  display: table;
-  margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 20px;
+  text-align:center;
 }
 #CSLogo, #MathLogo {
-  padding: 50px;
+  padding: 10px;
   height: 75px;
   width: auto;
 }
@@ -54,13 +59,6 @@
   border-width: 2px;
 }
 
-#title {
-  position: relative;
-  text-align: center;
-  font-size: 16px;
-  top: 25%;
-  margin: 0 0 10px;
-}
 #name {
   padding-bottom: 20px;
 }
@@ -113,8 +111,9 @@ table {
   padding-bottom: 10px;
 }
 #internshipLogos {
-  display: table;
+  text-align: center;
   margin: 0 auto;
+  width: 100%;
 }
 #LeidosLogo, #NASALogo {
   padding: 50px;
@@ -187,7 +186,6 @@ table {
   margin-left: 5%;
   margin-right: 5%;
   border: none;
-  width: 90%;
 }
 #JobsTable table, #JobsTable th, #JobsTable td {
   font-size: 15px;

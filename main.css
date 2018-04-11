@@ -19,6 +19,17 @@
   background-color: white;
 }
 
+#schoolImages {
+  display: table;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+#CSLogo, #MathLogo {
+  padding: 50px;
+  height: 75px;
+  width: auto;
+}
+/*----------Courses Style----------*/
 #list {
   position: relative;
   display: inline-block;
@@ -83,7 +94,7 @@ table {
   top: 5%;
 
 }
-
+/*----------Experience Style----------*/
 #description {
   display: block;
   text-align: justify;
@@ -92,4 +103,98 @@ table {
   width: 75%;
   padding-top: 50px;
   line-height: 20px;
+}
+#viewMoreBelow {
+  color: rgb(224,58,62); /*official UMD red rgb*/
+  margin: auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+#internshipLogos {
+  display: table;
+  margin: 0 auto;
+}
+#LeidosLogo, #NASALogo {
+  padding: 50px;
+  padding-bottom: 60px;
+  height: 150px;
+  width: auto;
+}
+#LeidosLogo:hover, #NASALogo:hover {
+  height: 150px;
+  width: auto;
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+#linkToOtherJobs {
+  text-align: center;
+}
+#otherJobsLink:link, #otherJobsLink:visited {
+  color: rgb(255,213,32); /*official UMD gold rgb*/
+}
+#otherJobsLink:hover {
+  color: rgb(224,58,62); /*official UMD red rgb*/
+}
+/*----------LeidosInternship & NASAInternship Style----------*/
+#LeidosTitle, #NASATitle{
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+#LeidosSymbol {
+  display: block;
+  margin: auto;
+  padding-bottom: 0px;
+}
+#NASASymbol {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#LeidosDescription, #NASADescription {
+  display: block;
+  text-align: justify;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 75%;
+  line-height: 20px;
+}
+/*----------OtherJobs Style----------*/
+#OtherJobsTitle {
+  text-align: center;
+  padding-top: 50px;
+}
+#JobList{
+  padding-top: 25px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.jobImage{
+  display: block;
+  padding-right: 10px;
+}
+.jobDescription {
+  text-align: center;
+  font-size: 14px;
+}
+#JobsTable {
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: none;
+  width: 90%;
+}
+#JobsTable table, #JobsTable th, #JobsTable td {
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  text-align: justify;
+}
+#JobsTable tr:hover {
+  color: rgb(0,0,0);
 }

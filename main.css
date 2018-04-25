@@ -80,6 +80,7 @@ table, th, td {
   font-size: 15px;
   border: 1px outset black;
   text-align: left;
+  word-spacing: 1px;
 }
 
 tr:hover, #botcamp_link, #math_research_link {
@@ -207,6 +208,7 @@ table {
   border: none;
   padding: 10px;
   text-align: justify;
+  word-spacing: 0.5px;
 }
 #JobsTable tr:hover {
   color: rgb(0,0,0);
@@ -223,4 +225,5 @@ table {
 }
 .activityTitle{
   padding-bottom: 10px;
+  word-spacing: 1px;
 }

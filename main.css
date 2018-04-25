@@ -10,8 +10,22 @@
   height: 25%;
   background-color: rgb(224,58,62); /*official UMD red rgb*/
   text-align: center;
+  display: table;
 }
-
+#menubar{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.social_icons {
+  display: inline-block;
+  padding-right: 10px;
+  height: 50px;
+  width: auto;
+}
+.social_icons:hover {
+  transform: scale3d(1.03, 1.03, 1.03);
+}
 #bottomHalf{
   position: relative;
   width: 100%;
@@ -34,15 +48,13 @@ padding-top: 50px;
   height: 75px;
   width: auto;
 }
-/*----------Courses Style----------*/
+
 #list {
   position: relative;
   display: inline-block;
-  margin: auto;
-  top: 40%;
-  padding: 0px;
   font-size: 18px;
   list-style-type: none;
+  text-align: center;
 }
 #list li {
   float: left;
@@ -63,13 +75,14 @@ padding-top: 50px;
   padding-bottom: 20px;
 }
 
+/*----------Courses Style----------*/
 table, th, td {
   font-size: 15px;
   border: 1px outset black;
-  padding: 2px;
   text-align: left;
 }
-tr:hover {
+
+tr:hover, #botcamp_link, #math_research_link {
   color: rgb(255,213,32); /*official UMD gold rgb*/
 }
 .table_header:hover {
@@ -86,11 +99,15 @@ table {
 }
 
 #course_tables {
+  display: table;
   position: relative;
   margin: 0 auto;
   width: 75%;
   top: 5%;
-
+  text-align: center;
+}
+#CS_table, #MATH_table {
+  display: inline-block;
 }
 /*----------Experience Style----------*/
 #description {
@@ -132,7 +149,7 @@ table {
 #otherJobsLink:link, #otherJobsLink:visited {
   color: rgb(255,213,32); /*official UMD gold rgb*/
 }
-#otherJobsLink:hover {
+#otherJobsLink:hover, #botcamp_link:hover, #math_research_link:hover {
   color: rgb(224,58,62); /*official UMD red rgb*/
 }
 /*----------LeidosInternship & NASAInternship Style----------*/
@@ -193,4 +210,17 @@ table {
 }
 #JobsTable tr:hover {
   color: rgb(0,0,0);
+}
+/*----------Activities Style----------*/
+.activity_description {
+  display: block;
+  text-align: justify;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 50px;
+  line-height: 20px;
+}
+.activityTitle{
+  padding-bottom: 10px;
 }

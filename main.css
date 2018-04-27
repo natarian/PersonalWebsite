@@ -65,10 +65,12 @@ padding-top: 50px;
   text-decoration: none;
   padding: 2px 8px;
 }
-#list li a:hover {
-  color: rgb(255,255,255);
-  border-style: outset;
-  border-width: 2px;
+#list li a:hover, #list li a:active {
+  box-shadow:
+    0 .05em .25em 0 rgba(0,0,0, 0.3),
+    inset 0 0 0 2em rgba(255,213,32, .5)
+  ;
+  border: none;
 }
 
 #name {
@@ -127,6 +129,7 @@ table {
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 10px;
+  width: 75%;
 }
 #internshipLogos {
   text-align: center;
@@ -202,6 +205,9 @@ table {
   padding-top: 20px;
   text-align: center;
   border: none;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 #JobsTable table, #JobsTable th, #JobsTable td {
   font-size: 15px;
@@ -226,4 +232,32 @@ table {
 .activityTitle{
   padding-bottom: 10px;
   word-spacing: 1px;
+}
+#UMDShirt_div{
+  text-align: left;
+  width: 75%;
+  margin: 0 auto;
+}
+.UMDShirt {
+  display: inline-block;
+  position: relative;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 100px;
+  width: auto;
+}
+#PME_certificate {
+  display: inline-block;
+  position: relative;
+  padding-right: 10px;
+  padding-top: 10px;
+  height: 200px;
+  width: auto;
+}
+#UMDShirt_front_caption, #UMDShirt_back_caption{
+  padding-top: 5px;
+  text-align: center;
+}
+#UMDShirt_front_container, #UMDShirt_back_container{
+  display: inline-block;
 }

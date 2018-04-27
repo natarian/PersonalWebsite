@@ -1,9 +1,11 @@
 <html>
   <head>
     <link rel = "stylesheet" href= "main.css"> </link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
   </head>
   <body>
-    <div id = "topHalf">
+    <div id = "topHalf" class="toHide">
       <div id = "menubar">
         <div>
           <ul id = "list">
@@ -21,25 +23,26 @@
     </div>
 
     <div id = "bottomHalf">
-      <div id = "title">
+      <div id = "title" class="toHide">
         <h1>Extracurricular Activities</h1>
       </div>
       <div>
-        <span class="activity_description">
+        <span class="activity_description toHide">
           <h2 class="activityTitle">Pi Mu Epsilon (National Honorary Mathematics Society)</h2>
           <h4>Fall 2015 - Present</h4>
           <h4>Treasurer (2016-2017), Vice President (2017-2018), President (2018-Present)</h4>
           <p>The Maryland Alpha Chapter of PME is dedicated to promoting mathematics within  and around the community.
              We also emphasize service activities and social events to better our members, the UMD Math community, and local schools.
              The national purpose of PME is to promote scholarly activity in mathematics among the students in academic institutions.</p>
+          <img src="images/PME_certificate.png" class="toHide" id="PME_certificate" alt="PME Certificate">
         </span>
-        <span class="activity_description">
+        <span class="activity_description toHide">
           <h2 class="activityTitle">Bitcamp</h2>
           <h4>April 09 – April 10, 2016</h4>
           <p>Developed a desktop strategy game using Unity and C# in Visual Studio. </br>
           View the source code and play the game <a href="https://github.com/natarian/Botcamp" target="_blank" id="botcamp_link">HERE</a></p>
         </span>
-        <span class="activity_description">
+        <span class="activity_description toHide">
           <h2 class="activityTitle">Math Department Research</h2>
           <h4>Fall 2016</h4>
           <p>Studied coding theory and error detection with a graduate student mentor through
@@ -49,16 +52,25 @@
             View a program that I wrote for my research project <a href="https://github.com/natarian/Calculatory-GUI" target="_blank" id="math_research_link">HERE</a></p>
           </p>
         </span>
-        <span class="activity_description">
-          <h2 class="activityTitle">UMD Math Club</h2>
+        <span class="activity_description toHide">
+          <h2 class="activityTitle">Math Club</h2>
           <h4>2015 - 2017</h4>
-          <p>Designed t-shirts for the math department in the Fall of 2017.</p>
+          <p>Designed t-shirts for the UMD math department in the Fall of 2017.</p>
         </span>
-        <span class="activity_description">
+        <div id="UMDShirt_div">
+          <div id="UMDShirt_front_container">
+            <img src="images/DepOfMath_logo.png" class="UMDShirt toHide" id="shirt_front" alt="UMD Tshirt Front Design">
+            <figcaption id="UMDShirt_front_caption" class="toHide"><h4>Front Design</h4><figcaption>
+          </div>
+          <div id="UMDShirt_back_container">
+            <img src="images/UMDMathDesign.png" class="UMDShirt toHide" id="shirt_back" alt="UMD Tshirt Back Design">
+            <figcaption id="UMDShirt_back_caption" class="toHide"><h4>Back Design</h4><figcaption>
+          </div>
+        </div>
+        <span class="activity_description toHide">
           <h2 class="activityTitle">UMD Club Table Tennis</h2>
           <h4>2015 - 2016</h4></br>
         </span>
-
       </div>
     </div>
   </body>

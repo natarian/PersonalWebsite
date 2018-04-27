@@ -15,7 +15,8 @@
 #menubar{
   display: table-cell;
   vertical-align: middle;
-  font-size: 16px;
+  width: 75%;
+  height: 100%;
 }
 .social_icons {
   display: inline-block;
@@ -53,9 +54,10 @@
 #list {
   position: relative;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   list-style-type: none;
   text-align: center;
+  padding-bottom: 10px;
 }
 #list li {
   float: left;

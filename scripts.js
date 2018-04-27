@@ -5,14 +5,15 @@ $(document).ready(function() {
     $("#UMDShirt_front_caption").removeClass("toHide");
     $(".toHide").css("-webkit-filter", "blur(3px)", "filter", "blur(3px)");
     $("#UMDShirt_div").append("<img src='images/DepOfMath_logo.png' class='UMDShirt toHide' id='shirt_front_overlay' alt='UMD Tshit Front Design'>");
-    $('#shirt_front_overlay').css('width', 'auto');
-    $('#shirt_front_overlay').css('height', '75%');
+    $('#shirt_front_overlay').css('width', '40%');
+    $('#shirt_front_overlay').css('height', 'auto');
     $('#shirt_front_overlay').css({
-       'position' : 'fixed',
-       'bottom' : '12.5%',
-       'left' : '50%',
-       'margin-left' : -$('#shirt_front_overlay').width()/2,
-       'margin-top' : -$('#shirt_front_overlay').height()/2,
+      'position' : 'fixed',
+      'top' : '40%',
+      'left' : '50%',
+      'bottom' : '60%',
+      'margin-left' : -$('#shirt_front_overlay').width()/2,
+      'margin-top' : -$('#shirt_front_overlay').height()/2,
    });
   });
 
@@ -21,8 +22,8 @@ $(document).ready(function() {
     $(".toHide").css("-webkit-filter", "blur(0px)", "filter", "blur(0px)");
     $(this).css({
       'position' : 'relative',
-      'height' : '100px',
-      'width' : 'auto',
+      'height' : 'auto',
+      'width' : '100%',
       'left' : "",
       'bottom' : "",
       'margin-left' : "",
@@ -46,7 +47,6 @@ $(document).ready(function() {
          'top' : '40%',
          'left' : '50%',
          'bottom' : '60%',
-         'left' : '50%',
          'margin-left' : -$('#shirt_back_overlay').width()/2,
          'margin-top' : -$('#shirt_back_overlay').height()/2,
      });
@@ -57,8 +57,8 @@ $(document).ready(function() {
       $(".toHide").css("-webkit-filter", "blur(0px)", "filter", "blur(0px)");
       $(this).css({
         'position' : 'relative',
-        'height' : '100px',
-        'width' : 'auto',
+        'height' : 'auto',
+        'width' : '100%',
         'top' : '',
         'left' : '',
         'bottom' : '',
@@ -74,12 +74,13 @@ $(document).ready(function() {
       $(this).removeClass("toHide");
       $(".toHide").css("-webkit-filter", "blur(3px)", "filter", "blur(3px)");
       $("#UMDShirt_div").append("<img src='images/PME_certificate.png' class='UMDShirt toHide' id='PME_certificate_overlay' alt='PME Certificate'>");
-      $('#PME_certificate_overlay').css('width', 'auto');
-      $('#PME_certificate_overlay').css('height', '75%');
+      $('#PME_certificate_overlay').css('width', '45%');
+      $('#PME_certificate_overlay').css('height', 'auto');
       $('#PME_certificate_overlay').css({
          'position' : 'fixed',
-         'bottom' : '12.5%',
+         'top' : '40%',
          'left' : '50%',
+         'bottom' : '60%',
          'margin-left' : -$('#PME_certificate_overlay').width()/2,
          'margin-top' : -$('#PME_certificate_overlay').height()/2,
      });
@@ -90,8 +91,8 @@ $(document).ready(function() {
       $(".toHide").css("-webkit-filter", "blur(0px)", "filter", "blur(0px)");
       $(this).css({
         'position' : 'relative',
-        'height' : '200px',
-        'width' : 'auto',
+        'height' : 'auto',
+        'width' : '25%',
         'left' : "",
         'bottom' : "",
         'margin-left' : "",

@@ -38,7 +38,7 @@ $(document).ready(function() {
       $(this).removeClass("toHide");
       $("#UMDShirt_back_caption").removeClass("toHide");
       $(".toHide").css("-webkit-filter", "blur(3px)", "filter", "blur(3px)");
-      $("#UMDShirt_div").append("<img src='images/UMDMathDesign.png' class='UMDShirt toHide' id='shirt_back_overlay' alt='UMD Tshit Back Design'>");
+      $("#UMDShirt_div").append("<img src='images/UMDMathDesign_white.png' class='UMDShirt toHide' id='shirt_back_overlay' alt='UMD Tshit Back Design'>");
 
       $('#shirt_back_overlay').css('width', '50%');
       $('#shirt_back_overlay').css('height', 'auto');

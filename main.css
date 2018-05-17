@@ -87,18 +87,21 @@
   text-align: left;
   word-spacing: 1px;
 }
+#course_tables .course_num {text-align: center; width: 5em;}
+#course_tables .course_title {text-align: left; width: 350px;}
 #course_tables th{
   font-size: 15px;
   border: 1px outset black;
 }
 
 #course_tables tr:hover:not(.course_table_header), #botcamp_link, #math_research_link {
-  color: rgb(255,213,32); /*official UMD gold rgb*/
+  background-color: rgb(255,213,32,0.5); /*official UMD gold rgb*/
 }
 
 #course_tables table {
   margin: 10px;
   display: inline-block;
+  vertical-align: top;
 }
 
 #math_table_title, #cs_table_title {
@@ -110,20 +113,35 @@
   display: table;
   position: relative;
   margin: 0 auto;
-
   top: 5%;
   text-align: center;
 }
-#CS_table, #MATH_table {
+#CS_table table, #MATH_table table{
   display: inline-block;
+
+  vertical-align: top;
+}
+#CS_table tr, #MATH_table tr{
+  height: 2em;
+}
+#CS_table td, #MATH_table td{
+  padding-left: 1px;
+  padding-right: 1px;
 }
 /*----------Experience Style----------*/
+#course_page_description {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+  padding-top: 50px;
+  line-height: 20px;
+}
 #description {
   display: block;
   text-align: justify;
   font-size: 15px;
   margin: 0 auto;
-
   padding-top: 50px;
   line-height: 20px;
 }
@@ -191,19 +209,17 @@
 #OtherJobsTitle {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
-/*#JobsTable td .jobTable_Image {
-  width: 10px;
-}*/
-.jobTable_Image, .jobTable_Description{width: 26%;}
-.jobTable_Position, .jobTable_Location, .jobTable_Date{width: 16%;}
+#JobsTable .jobTable_Image, #JobsTable .jobTable_Description{width: 21%;}
+#JobsTable .jobTable_Position, #JobsTable .jobTable_Location, #JobsTable .jobTable_Date{width: 11%;}
 .JobsTable_Images {width: 100%;}
 #JobsTable {
   table-layout: fixed;
-  padding-top: 20px;
   text-align: center;
-  border: none;
   margin: 0 auto;
+  border: 5px ridge rgb(255,213,32, .5);
+  width: 100%; /*ensures table fits within div on page (75% of screen)*/
 }
 #JobsTable th, #JobsTable td {
   font-size: 15px;
@@ -212,10 +228,13 @@
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
+  word-wrap:break-word;
 }
-#JobsTable tr:hover {
-  color: rgb(0,0,0);
-}
+#JobsTable tr:nth-child(even) {background-color: rgb(240,240,240,0.9);}
+#JobsTable tr:nth-child(odd) {background-color: rgb(240,240,240,0.1);}
+#JobsTable th {background-color: rgb(255,213,32, .5);}
+#JobsTable tr:hover { background-color: rgb(255,213,32, .5); }
 /*----------Activities Style----------*/
 .activity_description {
   display: block;

@@ -1,102 +1,91 @@
-<html>
-  <head>
-    <link rel = "stylesheet" href= "main.css"> </link>
-  </head>
-  <body>
-    <div id = "topHalf">
-      <div id = "menubar">
-        <div>
-          <ul id = "list">
-              <li><a href="index.html">About</a></li>
-              <li><a href="experience.html">Experience</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="activities.html">Activities</a></li>
-            </ul>
-        </div>
-        <div>
-          <a href="https://github.com/natarian" target="_blank"><img class="social_icons" id = "GitHub_icon" src="images/GitHub_icon.png" title="GitHub" alt = "GitHub"></a>
-          <a href="https://www.linkedin.com/in/andrew-natarian" target="_blank"><img class="social_icons" id = "LinkedIn_icon" src="images/LinkedIn_icon.png" title="LinkedIn" alt = "LinkedIn"></a>
-        </div>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html ng-app="myApp">
 
-    <div id = "bottomHalf">
-      <div id = "OtherJobsTitle">
-        <h1>Additional Work Experience</h1>
-      </div>
-      <table id = "JobsTable">
-        <tr>
-          <th class = "jobTable_Image"></th>
-          <th class = "jobTable_Position">Position</th>
-          <th class = "jobTable_Description">Description</th>
-          <th class = "jobTable_Location">Location</th>
-          <th class = "jobTable_Date">Date</th>
-        </tr>
-        <tr>
-          <td class = "jobTable_Image"><a href="https://www.americancampus.com/" target="_blank">
-            <img id = "ACC" class="JobsTable_Images" src="images/OtherJobImages/ACC.png" title="Click to view ACC website" alt = "ACC"></a>
-          </td>
-          <td class = "jobTable_Position">Community Assistant for American Campus Communities</td>
-          <td class = "jobTable_Description">Community Assistant/Leasing Agent for The Varsity (an ACC property) student housing apartment in College Park, MD.
-              Sold leases to customers, managed current residents, operated leasing office, and planned community events.
-              Generated $2,100,000 in revenue for American Campus Communities.</td>
-          <td class = "jobTable_Location">College Park, MD</td>
-          <td class = "jobTable_Date">September 2017</br> — </br>May 2018</td>
-        </tr>
-        <tr>
-          <td class = "jobTable_Image"><a href="https://sites.google.com/site/marylandnoycescholars/" target="_blank">
-            <img id = "Noyce" class="JobsTable_Images" src="images/OtherJobImages/Noyce.png" title="Click to view Noyce website" alt = "Noyce"></a>
-          </td>
-          <td class = "jobTable_Position">Math Tutor for the University of Marlyand Noyce Scholars Program</td>
-          <td class = "jobTable_Description">Hired as a math tutor through the Noyce Scholars Program at the University of Maryland, College Park.
-            Tutored during the day at Charles Carroll Middle School and during the evening at Northwestern Evening High School.
-            Acted as both a tutor and mentor for students, sometimes assisting in areas other than math. Led class instruction and held
-            individual sessions for algebra I, algebra II, and geometry.</td>
-          <td class = "jobTable_Location">College Park, MD</td>
-          <td class = "jobTable_Date">September 2016</br> — </br>May 2017</td>
-        </tr>
-        <tr>
-          <td class = "jobTable_Image"><a href="http://www.e2cr.com/aboute2cr.html" target="_blank">
-            <img id = "E2CR" class="JobsTable_Images" src="images/OtherJobImages/E2CR.png" title="Click to view E2CR website" alt = "E2CR"></a>
-          </td>
-          <td class = "jobTable_Position">Lab Assistant at E2CR</td>
-          <td class = "jobTable_Description">Processed, performed lab tests for, and completed analysis of soil samples for clients.</td>
-          <td class = "jobTable_Location">Baltimore, MD</td>
-          <td class = "jobTable_Date">November 2015</br> — </br>January 2016,</br> </br>May 2016</br> — </br>July 2016</td>
-        </tr>
-        <tr>
-          <td class = "jobTable_Image"><a href="http://www.yogicastle.com/#/store/2" target="_blank">
-            <img id = "YogiCastle" class="JobsTable_Images" src="images/OtherJobImages/YogiCastle.png" title="Click to view Yogi Castle website" alt = "YogiCastle"></a>
-          </td>
-          <td class = "jobTable_Position">Cashier at Yogi Castle</td>
-          <td class = "jobTable_Description">Cashier at Yogi Castle (frozen yogurt shop). Demonstrated customer service both at the cash register and while giving free samples.
-            Maintained the facility by re-stocking and organizing the kitchen, as well as cleaning</td>
-          <td class = "jobTable_Location">Crofton, MD</td>
-          <td class = "jobTable_Date">March 2015</br> — </br>August 2015</td>
-        </tr>
-        <tr>
-          <td class = "jobTable_Image"><a href="https://www.aacps.org/" target="_blank">
-            <img id = "AACPS" class="JobsTable_Images" src="images/OtherJobImages/AACPS.png" title="Click to view AACPS website" alt = "AACPS"></a>
-          </td>
-          <td class = "jobTable_Position">Data Analyst Intern for the Instructional Data Division at AACPS</td>
-          <td class = "jobTable_Description">Worked in the Instructional data division department. Analyzed data to find trends in student testing performances.
-              Used Microsoft Excel and Access to organize data and create pivot tables. Created tutorial videos for the new student
-              database system, used by teachers across the county.</td>
-          <td class = "jobTable_Location">Annapolis, MD</td>
-          <td class = "jobTable_Date">June 2014</br> — </br>August 2014</td>
-        </tr>
-        <tr>
-          <td class = "jobTable_Image"><a href="https://www.disa.mil/" target="_blank">
-            <img id = "DISA" class="JobsTable_Images" src="images/OtherJobImages/DISA.png" title="Click to view DISA website" alt = "DISA"></a>
-          </td>
-          <td class = "jobTable_Position">DISA Discover Intern</td>
-          <td class = "jobTable_Description">Selected as participant for DISA Discover Program internship. Designed and built a SharePoint website for the systems
-              engineering branch of DISA. Learned about systems engineering, as well as the IT and communications services provided by
-              the United States Department of Defense.</td>
-          <td class = "jobTable_Location">Fort Meade, MD</td>
-          <td class = "jobTable_Date">February 2013</br> — </br>May 2013</td>
-        </tr>
-      </table>
+<head>
+  <title>Andrew Natarian</title>
+  <link rel="stylesheet" href="main.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="app/app.js"></script>
+</head>
+
+<body>
+  <div id="topHalf">
+    <navbar></navbar>
+  </div>
+
+  <div id="bottomHalf">
+    <div id="OtherJobsTitle">
+      <h1>Additional Work Experience</h1>
     </div>
-  </body>
+    <table id="JobsTable">
+      <tr>
+        <th class="jobTable_Image"></th>
+        <th class="jobTable_Position">Position</th>
+        <th class="jobTable_Description">Description</th>
+        <th class="jobTable_Location">Location</th>
+        <th class="jobTable_Date">Date</th>
+      </tr>
+      <tr>
+        <td class="jobTable_Image"><a href="https://www.americancampus.com/" target="_blank">
+            <img id = "ACC" class="JobsTable_Images" src="images/OtherJobImages/ACC.png" title="Click to view ACC website" alt = "ACC"></a>
+        </td>
+        <td class="jobTable_Position">Community Assistant for American Campus Communities</td>
+        <td class="jobTable_Description">Community Assistant/Leasing Agent for The Varsity (an ACC property) student housing apartment in College Park, MD. Sold leases to customers, managed current residents, operated leasing office, and planned community events. Generated $2,100,000
+          in revenue for American Campus Communities.</td>
+        <td class="jobTable_Location">College Park, MD</td>
+        <td class="jobTable_Date">September 2017</br> — </br>May 2018</td>
+      </tr>
+      <tr>
+        <td class="jobTable_Image"><a href="https://sites.google.com/site/marylandnoycescholars/" target="_blank">
+            <img id = "Noyce" class="JobsTable_Images" src="images/OtherJobImages/Noyce.png" title="Click to view Noyce website" alt = "Noyce"></a>
+        </td>
+        <td class="jobTable_Position">Math Tutor for the University of Marlyand Noyce Scholars Program</td>
+        <td class="jobTable_Description">Hired as a math tutor through the Noyce Scholars Program at the University of Maryland, College Park. Tutored during the day at Charles Carroll Middle School and during the evening at Northwestern Evening High School. Acted as both a tutor and
+          mentor for students, sometimes assisting in areas other than math. Led class instruction and held individual sessions for algebra I, algebra II, and geometry.</td>
+        <td class="jobTable_Location">College Park, MD</td>
+        <td class="jobTable_Date">September 2016</br> — </br>May 2017</td>
+      </tr>
+      <tr>
+        <td class="jobTable_Image"><a href="http://www.e2cr.com/aboute2cr.html" target="_blank">
+            <img id = "E2CR" class="JobsTable_Images" src="images/OtherJobImages/E2CR.png" title="Click to view E2CR website" alt = "E2CR"></a>
+        </td>
+        <td class="jobTable_Position">Lab Assistant at E2CR</td>
+        <td class="jobTable_Description">Processed, performed lab tests for, and completed analysis of soil samples for clients.</td>
+        <td class="jobTable_Location">Baltimore, MD</td>
+        <td class="jobTable_Date">November 2015</br> — </br>January 2016,</br>
+          </br>May 2016</br> — </br>July 2016</td>
+      </tr>
+      <tr>
+        <td class="jobTable_Image"><a href="http://www.yogicastle.com/#/store/2" target="_blank">
+            <img id = "YogiCastle" class="JobsTable_Images" src="images/OtherJobImages/YogiCastle.png" title="Click to view Yogi Castle website" alt = "YogiCastle"></a>
+        </td>
+        <td class="jobTable_Position">Cashier at Yogi Castle</td>
+        <td class="jobTable_Description">Cashier at Yogi Castle (frozen yogurt shop). Demonstrated customer service both at the cash register and while giving free samples. Maintained the facility by re-stocking and organizing the kitchen, as well as cleaning</td>
+        <td class="jobTable_Location">Crofton, MD</td>
+        <td class="jobTable_Date">March 2015</br> — </br>August 2015</td>
+      </tr>
+      <tr>
+        <td class="jobTable_Image"><a href="https://www.aacps.org/" target="_blank">
+            <img id = "AACPS" class="JobsTable_Images" src="images/OtherJobImages/AACPS.png" title="Click to view AACPS website" alt = "AACPS"></a>
+        </td>
+        <td class="jobTable_Position">Data Analyst Intern for the Instructional Data Division at AACPS</td>
+        <td class="jobTable_Description">Worked in the Instructional data division department. Analyzed data to find trends in student testing performances. Used Microsoft Excel and Access to organize data and create pivot tables. Created tutorial videos for the new student database
+          system, used by teachers across the county.</td>
+        <td class="jobTable_Location">Annapolis, MD</td>
+        <td class="jobTable_Date">June 2014</br> — </br>August 2014</td>
+      </tr>
+      <tr>
+        <td class="jobTable_Image"><a href="https://www.disa.mil/" target="_blank">
+            <img id = "DISA" class="JobsTable_Images" src="images/OtherJobImages/DISA.png" title="Click to view DISA website" alt = "DISA"></a>
+        </td>
+        <td class="jobTable_Position">DISA Discover Intern</td>
+        <td class="jobTable_Description">Selected as participant for DISA Discover Program internship. Designed and built a SharePoint website for the systems engineering branch of DISA. Learned about systems engineering, as well as the IT and communications services provided by the
+          United States Department of Defense.</td>
+        <td class="jobTable_Location">Fort Meade, MD</td>
+        <td class="jobTable_Date">February 2013</br> — </br>May 2013</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
 </html>

@@ -1,40 +1,36 @@
-<html>
-  <head>
-    <link rel = "stylesheet" href= "main.css"> </link>
-  </head>
-  <body>
-    <div id = "topHalf">
-      <div id = "menubar">
-        <div>
-          <ul id = "list">
-              <li><a href="index.html">About</a></li>
-              <li><a href="experience.html">Experience</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="activities.html">Activities</a></li>
-            </ul>
-        </div>
-        <div>
-          <a href="https://github.com/natarian" target="_blank"><img class="social_icons" id = "GitHub_icon" src="images/GitHub_icon.png" title="GitHub" alt = "GitHub"></a>
-          <a href="https://www.linkedin.com/in/andrew-natarian" target="_blank"><img class="social_icons" id = "LinkedIn_icon" src="images/LinkedIn_icon.png" title="LinkedIn" alt = "LinkedIn"></a>
-        </div>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html ng-app="myApp">
 
-    <div id = "bottomHalf">
-      <span id = "description">
+<head>
+  <title>Andrew Natarian</title>
+  <link rel="stylesheet" href="main.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="app/app.js"></script>
+</head>
+
+<body>
+  <div id="topHalf">
+    <navbar></navbar>
+  </div>
+
+  <div id="bottomHalf">
+    <span id="description">
          I am a rising senior at the University of Maryland College Park, pursuing a double degree in applied mathematics and computer science.
          I'm currently available for full-time opportunities, starting after May 2019. I have previous experience as a systems engineering
          intern at Leidos in Gaithersburg, MD. I have also committed to an internship as a software engineer at NASA Goddard Space Flight Center
          in Greenbelt, MD for Summer 2018. I'm a diligent worker and adept at picking up new skills on the job. Feel free to contact me to discuss
          any positions that meet my qualifications and skill set.
       </span>
-      <h1 id = "viewMoreBelow">View more information about my work experience by clicking an image below</h1>
-      <div id = "internshipLogos">
-        <a href="LeidosInternship.html"><img id = "LeidosLogo" src="images/Leidos_logo.png" title="Click to view my internship at Leidos" alt = "Leidos"></a>
-        <a href="NASAInternship.html"><img id = "NASALogo" src="images/NASA_logo.png" title="Click to view my internship at NASA" alt = "NASA"></a>
-      </div>
-      <div id="linkToOtherJobs"><h2>To see a list of my other past jobs, please click <a href="OtherJobs.html" id = "otherJobsLink">HERE</a></h2></div>
-      </br></br>
+    <h1 id="viewMoreBelow">View more information about my work experience by clicking an image below</h1>
+    <div id="internshipLogos">
+      <a href="LeidosInternship.html"><img id = "LeidosLogo" src="images/Leidos_logo.png" title="Click to view my internship at Leidos" alt = "Leidos"></a>
+      <a href="NASAInternship.html"><img id = "NASALogo" src="images/NASA_logo.png" title="Click to view my internship at NASA" alt = "NASA"></a>
     </div>
-  </body>
+    <div id="linkToOtherJobs">
+      <h2>To see a list of my other past jobs, please click <a href="OtherJobs.html" id = "otherJobsLink">HERE</a></h2></div>
+    </br>
+    </br>
+  </div>
+</body>
+
 </html>

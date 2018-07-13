@@ -1,37 +1,32 @@
-<html>
-  <head>
-    <link rel = "stylesheet" href= "main.css"> </link>
-  </head>
-  <body>
-    <div id = "topHalf">
-      <div id = "menubar">
-        <div>
-          <ul id = "list">
-              <li><a href="index.html">About</a></li>
-              <li><a href="experience.html">Experience</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="activities.html">Activities</a></li>
-            </ul>
-        </div>
-        <div>
-          <a href="https://github.com/natarian" target="_blank"><img class="social_icons" id = "GitHub_icon" src="images/GitHub_icon.png" title="GitHub" alt = "GitHub"></a>
-          <a href="https://www.linkedin.com/in/andrew-natarian" target="_blank"><img class="social_icons" id = "LinkedIn_icon" src="images/LinkedIn_icon.png" title="LinkedIn" alt = "LinkedIn"></a>
-        </div>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html ng-app="myApp">
 
-    <div id = "bottomHalf">
-      <div id = "title">
-        <h1 id = "name">Andrew Natarian</h1>
-        <p id = "school"><b>University of Maryland, College Park</b></p>
-        <p id = "major"><i>Bachelor of Science</i> in <b>Computer Science</b></p>
-        <p id = "major"><i>Bachelor of Science</i> in <b>Applied Mathematics</b></p>
-        <p id = "graduation_date">Graduation Date: May, 2019</p>
-      </div>
-      <div id = "schoolImages">
-        <a href="http://www.cs.umd.edu/" target="_blank"><img id = "CSLogo" src="images/UMD_CS_logo.png" title="Click to view UMD CS website" alt = "CS"></a>
-        <a href="https://www-math.umd.edu/" target="_blank"><img id = "MathLogo" src="images/UMD_Mathematics.png" title="Click to view UMD Math website" alt = "MATH"></a>
-      </div>
+<head>
+  <title>Andrew Natarian</title>
+  <link rel="stylesheet" href="main.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="app/app.js"></script>
+</head>
+
+<body>
+  <div id="topHalf">
+    <navbar></navbar>
+  </div>
+
+  <div id="bottomHalf">
+    <div id="title">
+      <h1 id="name">Andrew Natarian</h1>
+      <p id="school"><b>University of Maryland, College Park</b></p>
+      <p id="major"><i>Bachelor of Science</i> in <b>Computer Science</b></p>
+      <p id="major"><i>Bachelor of Science</i> in <b>Applied Mathematics</b></p>
+      <p id="graduation_date">Graduation Date: May, 2019</p>
+      <p>Email: <a href="mailto:natarian@umd.edu">natarian@umd.edu</a></p>
     </div>
-  </body>
+    <div id="schoolImages">
+      <a href="http://www.cs.umd.edu/" target="_blank"><img id = "CSLogo" src="images/UMD_CS_logo.png" title="Click to view UMD CS website" alt = "CS"></a>
+      <a href="https://www-math.umd.edu/" target="_blank"><img id = "MathLogo" src="images/UMD_Mathematics.png" title="Click to view UMD Math website" alt = "MATH"></a>
+    </div>
+  </div>
+</body>
+
 </html>

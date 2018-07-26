@@ -2,6 +2,16 @@
 <html ng-app="myApp">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122937424-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122937424-1');
+  </script>
+
   <title>Andrew Natarian</title>
   <link rel="icon" href="images/AN_favicon.png">
   <link rel="stylesheet" href="main.css"></link>
@@ -30,7 +40,7 @@
         My contributions to the team have included the following skills: </br>
         • Maintain and develop the XINA data management system </br>
         • Design front-end features of the XINA platform with HTML, CSS, and JavaScript </br>
-        • Develop functional widgets through custom HTML elements with AngularJS </br>
+        • Implement custom AngularJS directives and improve current XINA tools </br>
         • Utilize AngularJS, Bootstrap, and jQuery JavaScript frameworks, as well as Google Chart and Highcharts APIs </br>
         • Query data from XINA databases using SQL </br>
       </p>
@@ -52,8 +62,8 @@
         time intervals.  I added a binning widget into the GOES tool so the data can be binned by minute, hour, or day (or binning can be set to off).
         I also developed a timeline widget using Google Chart API.  This increased ease of usability for both users and developers of this tool. The
         timeline shows the days for which data is logged, organized by the database name.  You can click a day on the timeline, and it will load
-        that day’s data directly into the plot. My team agreed that it would be useful to add timelines like this into other tools as well, so
-        my next assignment became writing custom AngularJS directives so we could easily add a timeline to any tool.
+        that day’s data directly into the plot. My team agreed that it would be useful to add timelines like this into other tools as well. I then
+        implemented three different versions of a timeline widget through custom AngularJS directives and added a timeline to another one of our tools.
 
         </p>
       </br>

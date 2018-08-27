@@ -94,7 +94,7 @@
   border: 1px outset black;
 }
 
-#course_tables tr:hover:not(.course_table_header), #botcamp_link, #math_research_link {
+#course_tables tr:hover:not(.course_table_header) {
   background-color: rgb(255,213,32,0.5); /*official UMD gold rgb*/
 }
 
@@ -173,10 +173,13 @@
   padding-top: 20px;
   text-align: center;
 }
-#otherJobsLink:link, #otherJobsLink:visited {
+#otherJobsLink:link, #otherJobsLink:visited,
+#botcamp_link:link, #botcamp_link:visited,
+#math_research_link:link,  #math_research_link:visited,
+#email:hover {
   color: rgb(255,213,32); /*official UMD gold rgb*/
 }
-#otherJobsLink:hover, #botcamp_link:hover, #math_research_link:hover {
+#otherJobsLink:hover, #botcamp_link:hover, #math_research_link:hover, #email {
   color: rgb(224,58,62); /*official UMD red rgb*/
 }
 /*----------LeidosInternship & NASAInternship Style----------*/

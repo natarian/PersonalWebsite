@@ -35,27 +35,29 @@
     <div id="NASADescription">
       <h2 style="padding-bottom:10px">Overview</h2>
       <p>
-        I am a software engineering intern for Linear Labs, LLC at NASA Goddard Space Flight Center in Greenbelt, MD.</br>
-        My primary goal is to continue the maintenance and development of XINA (XINA Is Not an Acronym), our database management platform. </br>
-        My contributions to the team have included the following skills: </br>
+        I was a software engineering intern for <a target="_blank" href="http://linearlabsllc.com/">Linear Labs, LLC</a>
+        at NASA Goddard Space Flight Center in Greenbelt, MD.
+        </br>
+        My primary goal was to continue the maintenance and development of XINA (XINA Is Not an Acronym), our database management platform. </br>
+        My contributions to the team included the following: </br>
         • Maintain and develop the XINA data management system </br>
         • Design front-end features of the XINA platform with HTML, CSS, and JavaScript </br>
         • Implement custom AngularJS directives and improve current XINA tools </br>
-        • Utilize AngularJS, Bootstrap, and jQuery JavaScript frameworks, as well as Google Chart and Highcharts APIs </br>
+        • Utilize AngularJS, Bootstrap, and jQuery frameworks, as well as Google Chart and Highcharts APIs </br>
         • Query data from XINA databases using SQL </br>
       </p>
       </br>
-      <h2 style="padding-bottom:10px">First Project</h2>
+      <h2 style="padding-bottom:10px">First Half of Internship</h2>
       <p>
-        &nbsp;&nbsp;During the first few weeks of my internship, my time has solely been put towards working on the MAG Site GOES Tool.
-        This involves data from a magnetometer on the Geostationary Operational Environmental Satellite (GOES).  The GOES is
-        geostationary, meaning it stays in the same position with respect to the rotating Earth.  This satellite tracks weather
-        data so we can monitor severe weather conditions like hurricanes, tornadoes, and flash floods.  My job is to query the
-        data from the proper database, and then make the complex data more accessible, understandable, and usable.  I plot the
-        data into charts to visualize it and add various usability features based on mission needs.  We have massive amounts of
-        data hosted on our servers, so the most important part is sifting through it, pulling it from the server, and filtering
-        it so we can actually use the data.
-      </br>
+        &nbsp;&nbsp;During the first few weeks of my internship, my time was solely put towards working on the MAG Site GOES Tool.
+        This involves data from a magnetometer on the Geostationary Operational Environmental Satellite (GOES).  The
+        <a target="_blank" href="https://www.nasa.gov/content/goes">GOES</a> is geostationary, meaning it stays in the same position with respect
+        to the rotating Earth.  This satellite tracks weather data so we can monitor severe weather conditions like hurricanes,
+        tornadoes, and flash floods.  My job was to query the necessary data from the proper database, and then make the complex
+        data more accessible, understandable, and usable.  I'd plot the data into charts to visualize it and add various usability
+        features based on mission needs.  We have massive amounts of data hosted on our servers, so the most important part is
+        sifting through it, pulling it from the server, and filtering it so we can actually use the data.
+        </br>
         &nbsp;&nbsp;The most notable improvements I made on this tool are the binning feature and the
         timeline.  Since there is so much data (sometimes hundred of data points per second), binning the data is a way of viewing
         more values at once.  We can't just query every single data point, but we can do some pre-processing to group the data into
@@ -64,10 +66,56 @@
         timeline shows the days for which data is logged, organized by the database name.  You can click a day on the timeline, and it will load
         that day’s data directly into the plot. My team agreed that it would be useful to add timelines like this into other tools as well. I then
         implemented three different versions of a timeline widget through custom AngularJS directives and added a timeline to another one of our tools.
-
-        </p>
+      </p>
       </br>
-      </div>
+      <h2 style="padding-bottom:10px">Second Half of Internship</h2>
+      <p>
+        &nbsp;&nbsp;Next I made a couple more improvements to some other existing tools.  This included adding a button to one tool
+        for the user to remove their most recent data entry, in case they entered information incorrectly.  For this I created a
+        Bootstrap Modal to pop up when the user clicked the button to remove their last entry.  It displayed the information of their
+        last entry and asked them to confirm that they want to delete it, or cancel.  Then for deletion, I used SQL to delete the entry
+        from the proper database.  I also added a button to open the current sample in another tool, which displayed all information
+        on that sample.  To do so, I had to fix the URL configurations in the sample viewing tool.  Once that was done, I made it so the
+        button would update with the URL corresponding to the selected sample. Now the tool supports deletion of previously entered
+        information, as well as the ability to open the sample in one of our other tools to get more information.
+        </br>
+        &nbsp;&nbsp;Now that I was familiar with the complex architectire of our codebase, I was capable of developing my own tool
+        from scratch.  I was put in charge of creating the Gas Chromatograph Mass Spectrometer (GCMS) Chart Tool.
+        This tool is for the <a target="_blank" href="http://exploration.esa.int/mars/48088-mission-overview/">ExoMars Rover</a> mission.
+        In general, this tool loaded the corresponding data for the selected test, and allowed the user to view a complete timeline of
+        the status and values of various data fields throughout the test.
+        </br>
+        &nbsp;&nbsp;
+        In the final week of my internship I started supoprting the efforts with the
+        <a target="_blank" href="https://gedi.umd.edu/">GEDI</a> mission, which will collect data on "how deforestation has
+        contributed to atmospheric CO2 concentrations, how much carbon forests will absorb in the future, and how habitat degradation
+        will affect global biodiversity".  The tool currently had a chart which would load binned data, since there is too much data
+        to load in all of the raw data.  I then added a second chart, which would appear when a point is selected on the binned chart.
+        This new chart would load all of the raw data for the time range of the selected bin.  I then added a third chart to appear when
+        a point is selected in the unbinned chart.  This would then let you view the precise waveform data for that second.
+      </p>
+      </br>
+      <h2 style="padding-bottom:10px">Conclusion</h2>
+      <p>
+          &nbsp;&nbsp;
+          I feel humbled knowing that I got to play even a small part in contributing to the missions at GSFC.
+          The programming languages that I’ve used this summer include HTML, CSS, JavaScript, and SQL.
+          I've significantly improved my JavaScript abilities and become more comfortable with learning to use external libraries.
+          Writing software this summer has taught me a lot about front-end software engineering.
+          I also learned some things about the full stack.
+          </br>&nbsp;&nbsp;
+          Additionally, I gained more experience with the various components that go into developing a piece of software.
+          These include version control systems, packet installers, build systems, frameworks, libraries, services, and APIs.
+          I became more comfortable with using Git in a team setting.  I ran into many merge conflicts and have since become
+          comfortable with resolving them.
+        </br>&nbsp;&nbsp;
+          Overall, this internship taught me a lot and I really enjoyed it. I successfully wrote multiple custom
+          AngularJS directives, contributed to the improvement of four different science tools, and even developed
+          my own science tool from scratch.  During the last week of my internship I was extended an offer to continue as a
+          part-time software engineer during the semester, which I accepted.
+      </p>
+      </br>
+    </div>
   </div>
 </body>
 

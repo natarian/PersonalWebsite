@@ -265,7 +265,7 @@
   height: auto;
   width: 100%;
 }
-#PME_certificate {
+#PME_certificate, #AlexaSkillIcon {
   display: inline-block;
   position: relative;
   padding-right: 10px;

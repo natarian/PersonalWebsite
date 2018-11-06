@@ -180,7 +180,7 @@
 #email:hover {
   color: rgb(255,213,32); /*official UMD gold rgb*/
 }
-#otherJobsLink:hover, #botcamp_link:hover, #math_research_link:hover, #email {
+#otherJobsLink:hover, #botcamp_link:hover, #PME_link:hover, #math_research_link:hover, #email {
   color: rgb(224,58,62); /*official UMD red rgb*/
 }
 /*----------LeidosInternship & NASAInternship Style----------*/

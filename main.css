@@ -175,6 +175,7 @@
 }
 #otherJobsLink:link, #otherJobsLink:visited,
 #botcamp_link:link, #botcamp_link:visited,
+#PME_link:link, #PME_link:visited,
 #math_research_link:link,  #math_research_link:visited,
 #email:hover {
   color: rgb(255,213,32); /*official UMD gold rgb*/
